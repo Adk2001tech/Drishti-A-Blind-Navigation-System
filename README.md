@@ -67,7 +67,7 @@ A Smart Blind Baseline System helps **blind people to sense their environment** 
 
 
 
-Generation of **44.1kHZ Sample rate Stereo wave file** for corresponding next step direction`['left', 'forward', 'right']` for given video input.
+Generation of **44.1kHZ Sample rate Stereo (Stereophonic sound for 2 independent earphone output) wave file** for corresponding next step direction`['left', 'forward', 'right']` for given video input.
 
 <img src="readme_gif/audio.gif" height="160">
 
