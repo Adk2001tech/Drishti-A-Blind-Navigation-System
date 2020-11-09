@@ -80,7 +80,7 @@ plt.show()
 video_path= os.path.join(os.getcwd(), 'videos/'+ args.v)
 print(video_path)
 # Read frames in Loop
-cam= cv2.VideoCapture(0)
+cam= cv2.VideoCapture(video_path)
 cv2.namedWindow('Original Frame', cv2.WINDOW_NORMAL)
 
 ret, frame= cam.read()
@@ -91,7 +91,7 @@ while ret:
 	frame_x= model(frame_x)
 	display= cv2.resize(frame_x[0, :, :, 0],(640, 480))
 	display= image.normalize(display)
-	display= cv2.cvtColor(display, cv2.COLOR_GRAY2RGB)
+	display= cv2.cvtColor(display, cv2.COLOR_GRAY2RGB);frame= cv2.resize(frame,(640, 480))
 	
 
 	display = np.hstack((frame/255.0, display))
