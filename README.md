@@ -56,7 +56,7 @@ A Smart Blind Baseline System helps **blind people to sense their environment** 
 * Clone the Repository. Put the video in `videos` folder in the directory.
 * Run
 
-        python cam_depth.py -m nyu -v video.mp4
+        python cam_audio.py -m nyu -v video.mp4
         
 * Arguments
         
