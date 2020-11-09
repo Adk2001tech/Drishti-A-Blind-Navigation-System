@@ -61,7 +61,7 @@ n= args.s
 # Initialize plot.
 fig, ax = plt.subplots()
 ax.set_title('Drishti: A Smart Blind System')
-ax.set_xlabel('Minor-Radian (-60*-- +60*)')
+ax.set_xlabel('Minor-Radian (-60* -- +60*)')
 ax.set_ylabel('Probability (per Direction)')
 
 # Initialize plot line object(s). Turn on interactive plotting and show plot.
