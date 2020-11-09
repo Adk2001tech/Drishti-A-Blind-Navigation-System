@@ -71,7 +71,7 @@ Generation of **44.1kHZ Sample rate Stereo (Stereophonic sound for 2 independent
 
 <img src="readme_gif/audio.gif" height="160">
 
-**Derived an <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/results/Audio_depth.wav">Audio</a> file for the <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/videos/room.mp4">Video</a> sample.**
+**Derived an <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/results/Audio_depth.wav">Audio</a> file for the <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/videos/video.mp4">Video</a> sample.**
 
 
 
