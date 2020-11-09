@@ -1,6 +1,6 @@
 # Drishti: A Blind Navigation System
 
-<img src="blind2.gif" height="160" align="right">
+<img src="readme_gif/blind2.gif" height="160" align="right">
 
 A Smart Blind Baseline System helps **blind people to sense their environment** by estimating the *depth* in a real-time image and guide them for the next step direction (**2100 milli-radian  coverage in 3-5  splits**), leveraging the power of End-to-end (**E2E**) learning with mathematical algorithms.
 
@@ -66,7 +66,10 @@ A Smart Blind Baseline System helps **blind people to sense their environment** 
 * Results
 
 
-<img src="results/result0.gif">
+<img src="readme_gif/audio.gif" height="160" align="right">
+
+Derivatived <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/results/Audio_depth.wav">Audio</a> file for the <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/videos/room.mp4">Video</a> sample.
+
 
 
 ## Pre-trained Models
