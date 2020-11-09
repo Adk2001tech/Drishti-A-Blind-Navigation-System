@@ -68,7 +68,7 @@ A Smart Blind Baseline System helps **blind people to sense their environment** 
 
 <img src="readme_gif/audio.gif" height="160" align="right">
 
-Generating a **44.1kHZ Sample rate Stereo wave file** for corresponding video input. 
+Generation of **44.1kHZ Sample rate Stereo wave file** for corresponding next step direction`['left', 'forward', 'right']` for given video input. 
 
 **Derivatived <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/results/Audio_depth.wav">Audio</a> file for the <a href="https://github.com/Adk2001tech/Drishti-A-Blind-Navigation-System/blob/main/videos/room.mp4">Video</a> sample.**
 
