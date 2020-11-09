@@ -8,7 +8,7 @@ A Smart Blind Baseline System helps **blind people to sense their environment** 
 
 ## Requirements
 * This code is tested with `Tensorflow 2.3`,  on a machine with a *NVIDIA GTX 1650ti* and 8GB+ RAM running on Windows 10.
-* Other packages needed `Numpy`, `Open-cv`, `Matplotlib`, `PIL`.
+* Other packages needed `PyAudio`, `Numpy`, `Open-cv`, `Matplotlib`, `PIL`.
 
 ## Evaluation
 
@@ -45,6 +45,23 @@ A Smart Blind Baseline System helps **blind people to sense their environment** 
         -i: video-file name under 'videos' folder to be evaluated (default folder: video.mp4)
         -s: Final direction guide (3, 5)
             ['ext-left', 'left', 'forward', 'right', 'ext-right']
+            
+* Results
+
+
+<img src="results/result0.gif">
+
+#### 2. Audio
+
+* Clone the Repository. Put the video in `videos` folder in the directory.
+* Run
+
+        python cam_depth.py -m nyu -v video.mp4
+        
+* Arguments
+        
+        -m: Model Name (1. {nyu: NYU Depth V2 }, {kitti: KITTI})
+        -i: video-file name under 'videos' folder to be evaluated (default folder: video.mp4)
             
 * Results
 
